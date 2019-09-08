@@ -69,12 +69,6 @@
       </plugin>
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <configuration>
-          <links>
-            <link>https://docs.oracle.com/en/java/javase/11/docs/api/</link>
-            <link>https://javaee.github.io/javaee-spec/javadocs/</link>
-          </links>
-        </configuration>
         <executions>
           <execution>
             <id>attach-javadocs</id>
@@ -114,6 +108,11 @@
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.eclipse.jetty</groupId>
+          <artifactId>jetty-maven-plugin</artifactId>
+          <version>9.4.20.v20190813</version>
         </plugin>
         <plugin>
           <artifactId>maven-deploy-plugin</artifactId>
