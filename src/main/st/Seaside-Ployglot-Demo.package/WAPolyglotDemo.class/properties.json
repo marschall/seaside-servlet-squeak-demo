@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Ployglot-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAPolyglotDemo",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

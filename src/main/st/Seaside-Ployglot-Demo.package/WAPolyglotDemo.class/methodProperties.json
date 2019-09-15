@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"register" : "fn 9/14/2019 18:02" },
+	"instance" : {
+		"answerSvg" : "fn 9/15/2019 14:54",
+		"evaluateR" : "fn 9/15/2019 14:56",
+		"renderContentOn:" : "fn 9/15/2019 14:56",
+		"renderROn:" : "fn 9/15/2019 14:56",
+		"renderRuntimeVersionOn:" : "fn 9/15/2019 14:45",
+		"renderSvgOn:" : "fn 9/14/2019 18:43",
+		"supportsR" : "fn 9/12/2019 08:48" } }
