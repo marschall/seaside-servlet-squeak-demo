@@ -13,7 +13,7 @@ gu install -u https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/graalsqueak/gr
 ```
 
 ```
-export JAVA_HOME=$GRAAL_HOME
+export JAVA_HOME=$GRAALVM_HOME
 ```
 
 ```
