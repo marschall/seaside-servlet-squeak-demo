@@ -1,7 +1,7 @@
-Squeak Seaside Servlet Bridge Demo Project
-==========================================
+Seaside Servlet Bridge for Squeak Demo Project
+==============================================
 
-Demo project for [marschall/squeak-servlet](https://github.com/marschall/squeak-servlet)
+Demo project for [marschall/seaside-servlet-squeak](https://github.com/marschall/seaside-servlet-squeak)
 
 Install and Run
 ---------------
@@ -9,8 +9,20 @@ Install and Run
 [Install GraalVM](https://www.graalvm.org/docs/getting-started/)
 
 ```
-gu install -u https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/graalsqueak/graalsqueak-component-0.8.4-for-19.0.0.jar
+gu install -u https://github.com/hpi-swa/graalsqueak/releases/download/1.0.0-rc1/graalsqueak-component-1.0.0-rc1-for-GraalVM-19.2.0.1.jar
+gu install R
 ```
+
+```
+Installer ensureRecentMetacello. 
+Metacello new
+ baseline:'Seaside3';
+ repository: 'github://SeasideSt/Seaside:develop/repository';
+ load
+```
+
+load Servlet-Seaside
+load GraalSqueak-Core
 
 ```
 export JAVA_HOME=$GRAALVM_HOME

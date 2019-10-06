@@ -2,7 +2,7 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.marschall</groupId>
-  <artifactId>squeak-servlet-demo</artifactId>
+  <artifactId>seaside-servlet-squeak-demo</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <packaging>war</packaging>
   <inceptionYear>2019</inceptionYear>
@@ -12,8 +12,8 @@
   <url>https://github.com/marschall/squeak-servlet-demo</url>
 
   <scm>
-    <connection>scm:git:git@github.com:marschall/squeak-servlet-demo.git</connection>
-    <developerConnection>scm:git:git@github.com:marschall/squeak-servlet-demo.git</developerConnection>
+    <connection>scm:git:git@github.com:marschall/seaside-servlet-squeak-demo.git</connection>
+    <developerConnection>scm:git:git@github.com:marschall/seaside-servlet-squeak-demo.git</developerConnection>
     <url>${project.url}</url>
     <tag>HEAD</tag>
   </scm>
@@ -41,8 +41,8 @@
   <dependencies>
    <dependency>
       <groupId>com.github.marschall</groupId>
-      <artifactId>squeak-servlet</artifactId>
-      <version>0.1.0-SNAPSHOT</version>
+      <artifactId>seaside-servlet-squeak</artifactId>
+      <version>0.1.0</version>
     </dependency>
   </dependencies>
 
