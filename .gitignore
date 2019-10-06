@@ -1,2 +1,5 @@
 target/
+bitbucket-cache/
+github-cache/
+package-cache/
 
