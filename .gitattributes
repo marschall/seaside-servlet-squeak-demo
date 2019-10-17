@@ -1,3 +1,7 @@
+# inform linguist that files with these extensions are indeed smalltalk files
+*.st linguist-language=Smalltalk
+
+# git lfs
 *.image filter=lfs diff=lfs merge=lfs -text
 *.changes filter=lfs diff=lfs merge=lfs -text
 *.sources filter=lfs diff=lfs merge=lfs -text
