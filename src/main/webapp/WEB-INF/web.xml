@@ -9,7 +9,7 @@
     <servlet-class>com.github.marschall.seaside.servlet.squeak.SeasideGraalSqueakBridgeServlet</servlet-class>
     <init-param>
       <param-name>smalltalk.ImagePath</param-name>
-      <param-value>/WEB-INF/squeak/Squeak5.3alpha-19006-64bit.image</param-value>
+      <param-value>/WEB-INF/squeak/graalsqueak-1.0.0-rc2-seaside.image</param-value>
     </init-param>
     <async-supported>false</async-supported>
     <!-- support multi part forms -->

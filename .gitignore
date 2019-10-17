@@ -2,4 +2,4 @@ target/
 bitbucket-cache/
 github-cache/
 package-cache/
-
+/src/main/webapp/WEB-INF/squeak/.filetree

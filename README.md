@@ -32,3 +32,5 @@ export JAVA_HOME=$GRAALVM_HOME
 mvnw jetty:run
 ```
 
+You'll find the demo under http://127.0.0.1:8080/ployglot
+
