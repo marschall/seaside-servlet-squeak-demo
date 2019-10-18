@@ -6,6 +6,8 @@ Demo project for [marschall/seaside-servlet-squeak](https://github.com/marschall
 Install and Run
 ---------------
 
+This project required [git-lfs](https://git-lfs.github.com).
+
 [Install GraalVM](https://www.graalvm.org/docs/getting-started/)
 
 ```
