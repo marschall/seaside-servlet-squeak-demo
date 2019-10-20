@@ -16,22 +16,11 @@ gu install R
 ```
 
 ```
-Installer ensureRecentMetacello. 
-Metacello new
- baseline:'Seaside3';
- repository: 'github://SeasideSt/Seaside:develop/repository';
- load
-```
-
-load Servlet-Seaside
-load GraalSqueak-Core
-
-```
 export JAVA_HOME=$GRAALVM_HOME
 ```
 
 ```
-mvnw jetty:run
+./mvnw jetty:run
 ```
 
 You'll find the demo under http://127.0.0.1:8080/ployglot
