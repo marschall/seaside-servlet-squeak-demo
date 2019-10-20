@@ -2,7 +2,6 @@
 	"class" : {
 		"register" : "fn 9/14/2019 18:02" },
 	"instance" : {
-		"answerSvg" : "fn 9/15/2019 14:54",
 		"evaluateR" : "fn 9/15/2019 14:56",
 		"renderContentOn:" : "fn 9/16/2019 07:56",
 		"renderROn:" : "fn 9/15/2019 14:56",
