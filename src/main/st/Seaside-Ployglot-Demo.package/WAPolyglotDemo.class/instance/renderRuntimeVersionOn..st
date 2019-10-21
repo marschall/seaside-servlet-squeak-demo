@@ -7,6 +7,7 @@ renderRuntimeVersionOn: html
 		with: 'java.runtime.version:'.
 	html space.
 	
+	"java.lang.System.getProperty(""java.runtime.version"")"
 	systemClass := Java type: 'java.lang.System'.
 	runtimeVersion := systemClass getProperty: 'java.runtime.version'.
 	
